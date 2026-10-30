@@ -48,7 +48,7 @@ services:
       - default
 
   cloudflared:
-    image: cloudflare/cloudflared:2026.10.5
+    image: cloudflare/cloudflared:2026.10.6
     hostname: cloudflared
     container_name: tospeak__cloudflared
 
